@@ -66,9 +66,9 @@ Se hizo mediante dos técnicas: Brainstorming y Buscando las palabras más comun
 Es decir, seleccionar X documentos de cada categoría y sacar las palabras más comunes de cada tipo.
 El código para este último punto era algo similar a:
 
-word_counter = collections.Counter(wordcount)
-for word, count in word_counter.most_common(text):
-    print(word, ": ", count)
+      word_counter = collections.Counter(wordcount)
+      for word, count in word_counter.most_common(text):
+        print(word, ": ", count)
     
 Una vez acabado este paso, creé una librería con las palabras más frecuentes y que tenían sentido de cada categoría.
 
